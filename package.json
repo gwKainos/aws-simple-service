@@ -1,0 +1,32 @@
+{
+  "name": "aws-simple-service",
+  "version": "1.0.0",
+  "description": "AWS Simple SNS, SQS Service",
+  "main": "dist/index.js",
+  "private": true,
+  "author": "Kainos",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "rm -rf dist/* && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.562.0",
+    "axios": "^0.19.0",
+    "config": "^3.2.4",
+    "js-yaml": "^3.13.1"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/axios": "^0.14.0",
+    "@types/config": "^0.0.35",
+    "@types/js-yaml": "^3.12.1",
+    "@types/node": "^12.12.5",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.9.2"
+  },
+  "keywords": [
+    "aws simple notification service",
+    "aws simple queue service"
+  ]
+}

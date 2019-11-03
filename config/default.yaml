@@ -1,0 +1,5 @@
+accessKeyId: null
+secretAccessKey: null
+region: eu-west-1
+snsTopicArn: arn:aws:sns:eu-west-1:xxxxxxxx:xxxxx
+sqsQueueUrl: https://sqs.eu-west-1.amazonaws.com/xxxxxxxx/xxxxx
